@@ -10,10 +10,10 @@ To demonstate how to run lambda locally and APIG proxy integration locally.
 
 ```bash
 # Invoking function with event file
-$ sam local invoke "Ratings" -e event.json
+$ sam local invoke "Greeting" -e event.json
 
 # Invoking function with event via stdin
-$ echo '{"message": "Hey, are you there?" }' | sam local invoke "Ratings"
+$ echo '{"message": "Hey, are you there?" }' | sam local invoke "Greeting"
 
 # For more options
 $ sam local invoke --help
